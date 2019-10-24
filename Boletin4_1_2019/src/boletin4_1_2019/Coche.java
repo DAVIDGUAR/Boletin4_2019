@@ -29,6 +29,12 @@ public class Coche {
    public void frenar (int menos){
        velocidad=velocidad-menos;
        
+       
+       if(velocidad<0){
+           velocidad=0;
+           
+       }
+       
    }
  
 }
