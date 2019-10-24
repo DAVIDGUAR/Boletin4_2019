@@ -10,7 +10,7 @@ package boletin4_3_2019;
  * @author david
  */
 public class Circulo {
-    
+
     double radio;
 
     public Circulo(double radio) {
@@ -27,22 +27,17 @@ public class Circulo {
     public void setRadio(double radio) {
         this.radio = radio;
     }
-   
-    
-    
-    public double calcularArea(){
-        
-       double area=Math.PI*(Math.pow(radio,2));
+
+    public double calcularArea() {
+
+        double area = Math.PI * (Math.pow(radio, 2));
         return area;
     }
-    
-    public double calcularLonxitude(){
-       double lonxitude=(2*Math.PI)*radio;
+
+    public double calcularLonxitude() {
+        double lonxitude = (2 * Math.PI) * radio;
         return lonxitude;
-        
-        
+
     }
-    
-    
-    
+
 }
